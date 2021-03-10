@@ -6,7 +6,7 @@ from tensorflow.python.ops import array_ops, variables
 from tensorflow.python.training import training
 from tensorflow.core.protobuf import config_pb2
 from tensorflow.python.client import session
-from train_code import network, guided_filter as gf
+from white_box.train_code import network, guided_filter as gf
 from tqdm import tqdm
 
 

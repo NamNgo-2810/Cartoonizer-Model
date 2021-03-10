@@ -3,7 +3,7 @@ from tensorflow.python.ops import array_ops, variables
 from tensorflow.core.protobuf import config_pb2
 from tensorflow.python.client import session
 import numpy as np
-from train_code import guided_filter as gf
+from white_box.train_code import guided_filter as gf
 
 
 def fast_guided_filter(lr_x, lr_y, hr_x, r=1, eps=1e-8):
