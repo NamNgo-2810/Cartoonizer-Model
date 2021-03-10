@@ -8,7 +8,10 @@ from tensorflow.python.ops.losses import losses_impl
 import os
 import numpy as np
 import argparse
-from white_box.train_code import network, utils, loss, guided_filter
+import network 
+import utils
+import loss
+import guided_filter
 from tqdm import tqdm
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"

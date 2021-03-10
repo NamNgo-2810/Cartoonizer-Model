@@ -8,7 +8,7 @@ from tensorflow.python.ops.losses import losses_impl
 import os
 import numpy as np
 import argparse
-from white_box.train_code import network, utils
+import network, utils
 from tqdm import tqdm
 
 
